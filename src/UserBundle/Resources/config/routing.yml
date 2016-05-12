@@ -1,0 +1,3 @@
+addProject:
+    path:     /aggiungi-progetto.html
+    defaults: { _controller: UserBundle:Portfolio:Project }
