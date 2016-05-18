@@ -1,0 +1,3 @@
+addIndex:
+    path:     /index
+    defaults: { _controller: FrontBundle:Index:index }
