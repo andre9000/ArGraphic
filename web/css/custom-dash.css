@@ -35,6 +35,15 @@
   padding: 5px 6px;
   border-radius: 50%;
 }
+
+/*.site_title {
+    background-image: url(../img/AR-logo-small.png);
+    background-size: 190px;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 200px;
+    margin: 15px;
+}*/
 .nav-sm .main_container .top_nav {
   display: block;
   margin-left: 70px;
@@ -588,17 +597,20 @@ a:hover, a:focus {
   line-height: 32px;
 }
 .site_title {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  font-weight: 400;
-  font-size: 22px;
-  width: 100%;
-  color: #ECF0F1 !important;
-  margin-left: 0 !important;
+    background-image: url(../img/AR-logo-small.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 22px;
+    width: 100%;
+    color: #ECF0F1 !important;
   line-height: 59px;
   display: block;
   height: 55px;
-  margin: 0;
   padding-left: 10px;
 }
 .site_title:hover, .site_title:focus {

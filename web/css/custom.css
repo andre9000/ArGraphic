@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -48,6 +49,16 @@ body {
 .text-primary {
     color: #fed136;
 }
+
+.contact-details p i {
+    margin-right: 10px;
+}
+
+.contact-details span {
+    display: block;
+    margin-left: 24px;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -59,10 +70,11 @@ a, a:hover, a:focus, a:active, a.active {
     outline: 0;
 }
 a {
-    color: #fed136;
+    color: #1B7EBC;
 }
 a:hover, a:focus, a:active, a.active {
-    color: #1B7EBC;
+    color: white;
+    text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -276,7 +288,7 @@ section h3.section-subheading {
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
 }
 
 .service-icon {
@@ -337,7 +349,7 @@ section h3.section-subheading {
     margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254, 209, 54, .9);
+    background: rgba(27, 126, 188, .9);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -556,7 +568,7 @@ section h3.section-subheading {
 }
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #222;
 }
 .team-member h4 {
     margin-top: 25px;
@@ -570,14 +582,19 @@ aside.clients img {
     margin: 50px auto;
 }
 section#contact {
-    background-color: #222;
+    background-color: #D9D8D8;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-section#contact .section-heading {
+/*section#contact .section-heading {
     color: #fff;
+}*/
+
+section#contact .input-field {
+    margin-bottom: 10px;
 }
+
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -620,6 +637,54 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+#submit:hover {
+    color: #fff;
+}
+
+section#contact .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
+     color: #009EE3;
+}
+
+.btn-effect {
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -ms-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-blue {
+    background-color: #1B7EBC;
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 55px;
+    color: #fff;
+}
+.btn {
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn{
+        border: 4px solid #fff;
 }
 /*============================================================
 	Footer
@@ -784,7 +849,7 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #1B7EBC;
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
